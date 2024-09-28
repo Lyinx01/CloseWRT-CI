@@ -89,6 +89,10 @@ CONFIG_PACKAGE_kmod-tcp-bbr=y
 CONFIG_PACKAGE_kmod-tun=y
 CONFIG_PACKAGE_kmod-warp=y
 CONFIG_PACKAGE_kmod-wireguard=y
+CONFIG_PACKAGE_kmod-crypto-acompress=y
+CONFIG_PACKAGE_kmod-lib-lz4=y
+CONFIG_PACKAGE_kmod-lib-zstd=y
+CONFIG_PACKAGE_kmod-zram=y
 #组件调整
 CONFIG_PACKAGE_autocore=y
 CONFIG_PACKAGE_automount=y
@@ -186,6 +190,7 @@ CONFIG_PACKAGE_TURBOACC_INCLUDE_NO_FASTPATH=y
 CONFIG_PACKAGE_wifi-dats=y
 CONFIG_PACKAGE_wireless-regdb=y
 CONFIG_PACKAGE_wireless-tools=y
+CONFIG_PACKAGE_zram-swap=y
 #通用组件，请勿修改
 # CONFIG_AFALG_FALLBACK is not set
 # CONFIG_GDB is not set
