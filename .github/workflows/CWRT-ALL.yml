@@ -55,7 +55,7 @@ jobs:
       max-parallel: 3
       matrix:
         TARGET: [MTK-7981]
-        SOURCE: [hanwckf/immortalwrt-mt798x, padavanonly/immortalwrt-mt798x, padavanonly/immortalwrt-mt798x-23.05]
+        SOURCE: [padavanonly/immortalwrt-mt798x]
         include:
           - SOURCE: padavanonly/immortalwrt-mt798x
             BRANCH: openwrt-21.02
